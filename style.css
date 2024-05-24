@@ -1,0 +1,188 @@
+/* Font
+
+OSWALD
+
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+PLAYFAIR
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+MANROPE
+
+.manrope-<uniquifier> {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+*/
+
+.header {
+  background-image: url(img/header.png);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-social {
+  position: absolute;
+
+  top: 50%;                     
+  transform: translate(0, -50%);
+
+  left: 50px;
+
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.header-social-circle {
+  width: 60px;
+  height: 60px;
+
+
+  display: flex;
+  justify-content: center;
+
+
+  background-color: #ffffff;
+  border: 1px dashed grey;
+  border-radius: 50%;
+
+  transition: all 0.1s ease;
+}
+
+.header-social-circle:hover{
+  background-color: grey;
+}
+
+.header-social-circle-icon {
+}
+
+.header-container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.header-images {
+  display: flex;
+  gap: 20px;
+}
+
+.header-image {
+  height: 146px;
+  width: 320px;
+}
+
+.header-content {
+  margin-top: 115px;
+}
+.header-content-title {
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #676767;
+}
+.header-content-text {
+  font-family: Manrope;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0.04em;
+  text-align: left;
+
+  color: #676767;
+
+  margin-top: 30px;
+}
+.header-content-button {
+  margin-top: 50px;
+
+  position: relative;
+
+}
+.header-content-button-inner {
+
+  box-shadow: 0px 20px 60px 0px #FF7B7C9E;
+
+
+  max-width: 385px;
+  border-radius: 20px;
+  width: 100%;
+  height: 100px;
+
+  background: radial-gradient(
+    88.67% 413.11% at 50% 50%,
+    #ff9497 0%,
+    #ff7a7b 100%
+  );
+
+  text-transform: uppercase;
+
+  font-family: Oswald;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  color: #ffffff;
+
+  border-bottom: 10px solid #F16364;
+
+  transition: all 0.2s linear;
+  
+}
+
+.header-content-button-inner:hover{
+  background: #F16364;
+}
+.header-content-button-sticker {
+  width: 150px;
+  height: 150px;
+
+  position: absolute;
+  top: -24px;
+  left: 317px;
+
+}
+
+
+.header-content-arrow-bottom {
+  width: 190px;
+  height: 190px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  background-image: url(icons/bg-gortai.svg);
+}
+.header-content-arrow-bottom-inner {
+  padding: 30px 30px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+.header-content-arrow-bottom-inner:hover {
+  background: #676767;
+}
