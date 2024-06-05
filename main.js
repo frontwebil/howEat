@@ -61,3 +61,9 @@ AccordeonTopButton.forEach((el) => {
     }
   });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.classList.add('loaded');
+});
