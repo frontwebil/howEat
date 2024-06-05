@@ -15,6 +15,7 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <style>
@@ -46,7 +47,7 @@
 <body>
 
 
-  <header class="header">
+  <header class="header" id="top">
 
     <div class="header-social">
       <a href="https://t.me/belladonnacentr" class="header-social-circle">
@@ -71,16 +72,16 @@
         </p>
       </div>
 
-      <div class="content-button">
+      <a href="https://secure.wayforpay.com/button/b3508156e5cf1" class="content-button">
         <button class="content-button-inner">Взяти участь</button>
         <img src="img/sticker.png" alt="" class="content-button-sticker">
-      </div>
+        </ф>
 
-      <a href="#aboba" class="header-content-arrow-bottom">
-        <div class="header-content-arrow-bottom-inner">
-          <img src="icons/arrow.svg" alt="" class="arrow">
-        </div>
-      </a>
+        <a href="#aboba" class="header-content-arrow-bottom">
+          <div class="header-content-arrow-bottom-inner">
+            <img src="icons/arrow.svg" alt="" class="arrow">
+          </div>
+        </a>
 
     </div>
   </header>
@@ -403,7 +404,7 @@
     <h3 class="video-section-text-blue">та фізичний стан</h3>
 
     <div class="video-section-container">
-      <video src="icons/JustHome - Google Chrome 2024-05-18 13-29-02.mp4" class="video" controls poster=""></video>
+      <video src="" class="video" controls poster=""></video>
 
       <!-- <iframe class="video"  src="https://www.youtube.com/embed/SrnWp5O0DEs?si=w1xopMuAodiI-6-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
     </div>
@@ -759,7 +760,8 @@
 
               <div class="program-course-card-column-row">
                 <img src="program-course/6.svg" alt="" class="program-course-card-column-row-img">
-                <p class="program-course-card-column-row-text">Окремий чат-розмовник з можливістю задавати мені питання</p>
+                <p class="program-course-card-column-row-text">Окремий чат-розмовник з можливістю задавати мені питання
+                </p>
               </div>
 
             </div>
@@ -777,18 +779,451 @@
 
   </section>
 
+  <section class="testimonials">
+    <h2 class="testimonials-title">Відгуки</h2>
+    <p class="testimonials-bluetext">про мою роботу</p>
+    <img src="img/testimonials.png" alt="" class="testimonials-img">
+  </section>
+
+  <section class="video-testi" style="margin-bottom: 100px;">
+
+    <h2 class="testimonials-title" style="margin-top: 150px;">Відгуки</h2>
+    <p class="testimonials-bluetext" style="margin-bottom: 70px;">про мою роботу</p>
+
+    <div class="swiper mySwiper" style="align-items: center;overflow: hidden;padding-bottom: 50px;">
+
+      <div class="swiper-button-prev"
+        style="color: transparent;width: 100px;height: 100px;top: var(--swiper-navigation-top-offset, 44%);"></div>
+
+      <div class="swiper-wrapper" style="align-items: center;" style="overflow: hidden;">
+
+        <div class="swiper-slide">
+          <video src="videos/3.mp4" poster="videos/poster-3.png" controls
+            style="width: 340px;height: 590px;border-radius: 30px;border: 12px solid #86C3C4;background-color: #86C3C4;"></video>
+        </div>
+
+        <div class="swiper-slide">
+          <video src="videos/2.mp4" poster="videos/poster-2.png" controls
+            style="width: 340px;height: 590px;border-radius: 30px;border: 12px solid #86C3C4;background-color: #86C3C4;"></video>
+        </div>
+
+        <div class="swiper-slide">
+          <video src="videos/1.mp4" poster="videos/poster-1.png" controls
+            style="width: 340px;height: 590px;border-radius: 30px;border: 12px solid #86C3C4;background-color: #86C3C4;"></video>
+        </div>
+
+      </div>
+      <div class="swiper-button-next"
+        style="color: transparent;width: 100px;height: 100px;top: var(--swiper-navigation-top-offset, 44%);"></div>
+
+      <div class="controls">
+        <div class="swiper-pagination" style="--swiper-theme-color: #86C3C4;"></div>
+      </div>
+
+
+    </div>
+
+    <div class="content-button" style="justify-content: center;">
+      <button class="content-button-inner">Взяти участь</button>
+      <img src="img/sticker.png" alt="" class="content-button-sticker">
+    </div>
+  </section>
+
+  <section class="reg-now">
+    <div class="title-text">Реєструйтеся зараз та візьміть участь
+      на курсі по спеціальній ціні</div>
+    <div class="title-text-blue">До закінчення знижки: </div>
+
+    <div class="timer" style="margin-bottom: 20px;">
+
+      <div class="time-block">
+        <div class="time" id="hrs">06</div>
+      </div>
+
+      <div class="betw">:</div>
+
+      <div class="time-block">
+        <div class="time" id="min">45</div>
+      </div>
+
+      <div class="betw">:</div>
+
+      <div class="time-block">
+        <div class="time" id="sec">23</div>
+      </div>
+
+    </div>
+
+    <div class="under-timer">
+      <p class="under-timer-text">годин</p>
+      <p class="under-timer-text">хвилин</p>
+      <p class="under-timer-text">секунд</p>
+    </div>
+
+    <div class="reg-now-cards">
+
+      <div class="reg-now-card">
+        <img src="img/reg-me1.png" alt="" class="reg-now-card-img">
+        <h3 class="reg-now-card-title">Самостійна</h3>
+        <div class="reg-now-columns">
+
+          <div class="reg-now-row">
+            <img src="reg-now-rows/1.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">19 відеолекцій по 15 хв. </p>
+          </div>
+
+          <div class="reg-now-row">
+            <img src="reg-now-rows/2.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">Додаткові матеріали</p>
+          </div>
+
+          <div class="reg-now-row">
+            <img src="reg-now-rows/3.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">24 PDF - пам’ятки</p>
+          </div>
+
+          <div class="reg-now-row">
+            <img src="reg-now-rows/4.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">Доступ до матеріалів 30 днів</p>
+          </div>
+
+          <div class="reg-now-row" style="opacity: 0.25;">
+            <img src="reg-now-rows/5.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">Закритий чат учасників із зворотнім зв’язком з Ольгою</p>
+          </div>
+
+          <div class="reg-now-row" style="opacity: 0.25;">
+            <img src="reg-now-rows/6.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">Один прямий ефір з відповідями на питання</p>
+          </div>
+
+        </div>
+
+        <div class="reg-now-price">
+          <p class="reg-now-price-line">1490 грн</p>
+          <div class="reg-now-price-current">447 грн</div>
+        </div>
+
+        <div class="reg-now-bonus">
+          <img src="img/book.png" alt="" class="reg-now-bonus-img">
+          <p class="reg-now-bonus-text">Встигніть придбати участь сьогодні та отримайте корисний БОНУС:
+            «Натуропатична схема корекції стресу»</p>
+        </div>
+
+        <div class="content-button" style="margin-top: 28px;margin-bottom: 15px;">
+          <button class="content-button-inner" style="
+          font-size: 20px;
+          max-width: 290px;
+          height: 70px;
+          margin: 0 auto;
+          
+          ">Взяти участь</button>
+          <img src="img/sticker.png" alt="" class="content-button-sticker"
+            style="width: 100px;height: 100px;margin-left: -50px;">
+        </div>
+
+      </div>
+
+      <div class="reg-now-card">
+        <img src="img/reg-me2.png" alt="" class="reg-now-card-img">
+        <h3 class="reg-now-card-title">Хочу з лікарем</h3>
+        <div class="reg-now-columns">
+
+          <div class="reg-now-row">
+            <img src="reg-now-rows/1.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">19 відеолекцій по 15 хв. </p>
+          </div>
+
+          <div class="reg-now-row">
+            <img src="reg-now-rows/2.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">Додаткові матеріали</p>
+          </div>
+
+          <div class="reg-now-row">
+            <img src="reg-now-rows/3.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">24 PDF - пам’ятки</p>
+          </div>
+
+          <div class="reg-now-row">
+            <img src="reg-now-rows/4.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">Додатковий доступ до курсу після завершення: два тижні</p>
+          </div>
+
+          <div class="reg-now-row">
+            <img src="reg-now-rows/5.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">Закритий чат учасників із зворотнім зв’язком з Ольгою</p>
+          </div>
+
+          <div class="reg-now-row">
+            <img src="reg-now-rows/6.svg" alt="" class="reg-now-row-img">
+            <p class="reg-now-row-text">Один прямий ефір з відповідями на питання</p>
+          </div>
+
+        </div>
+
+        <div class="reg-now-price">
+          <p class="reg-now-price-line">2150 грн</p>
+          <div class="reg-now-price-current">645 грн</div>
+        </div>
+
+        <div class="reg-now-bonus">
+          <img src="img/book.png" alt="" class="reg-now-bonus-img">
+          <p class="reg-now-bonus-text">Встигніть придбати участь сьогодні та отримайте корисний БОНУС:
+            «Натуропатична схема корекції стресу»</p>
+        </div>
+
+        <div class="content-button" style="margin-top: 28px;margin-bottom: 15px;">
+          <button class="content-button-inner" style="
+          font-size: 20px;
+          max-width: 290px;
+          height: 70px;
+          margin: 0 auto;
+          
+          ">Взяти участь</button>
+          <img src="img/sticker.png" alt="" class="content-button-sticker"
+            style="width: 100px;height: 100px;margin-left: -90px;">
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+  <section class="resault">
+    <div class="title-text"> Якими будуть твої результати після</div>
+    <div class="title-text-blue">проходження курсу</div>
+
+    <div class="resault-imgages">
+
+      <div class="resault-imgages-first-row">
+        <div class="resault-imgages-first-row-first">
+        </div>
+        <div class="resault-imgages-first-row-second">
+        </div>
+        <div class="resault-imgages-first-row-third">
+
+        </div>
+      </div>
+
+      <div class="resault-imgages-second-row">
+        <div class="resault-imgages-second-row-first">
+        </div>
+        <div class="resault-imgages-second-row-second">
+        </div>
+        <div class="resault-imgages-second-row-third">
+
+        </div>
+      </div>
+
+      <div class="resault-imgages-third-row">
+        <div class="resault-imgages-third-row-first">
+        </div>
+        <div class="resault-imgages-third-row-second">
+        </div>
+      </div>
+
+  </section>
+
+  <section class="question">
+    <div class="title-text">Питання:</div>
+    <div class="title-text-blue">Ще сумніваєтесь?</div>
+
+
+    <div class="accordeon">
+
+      <div class="accordeon-item">
+        <div class="accordeon-top-button">
+          <div class="accordeon-top-button-left">
+            <p></p>
+            <p class="accordeon-top-button-left-text">Не бажаєте навчатися онлайн?</p>
+          </div>
+          <img src="resault/plus.svg" alt="" class="accordeon-img">
+        </div>
+        <div class="accordeon-content">
+          <div class="accordeon-content-text">a
+            П'ять років тому онлайн навчання виглядало зовсім інакше, ніж сьогодні. Зараз воно настільки вдосконалене,
+            що стає популярнішим за офлайн курси. Сучасні онлайн платформи пропонують зручні особисті кабінети з усіма
+            необхідними матеріалами, закриті чати для спілкування з іншими учасниками та різноманітні формати навчальних
+            матеріалів (аудіо, відео, pdf). <br><br>
+
+            Це дозволяє зробити навчання максимально комфортним і продуктивним, не порушуючи вашого звичного розкладу.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordeon-item">
+        <div class="accordeon-top-button">
+          <div class="accordeon-top-button-left">
+            <p></p>
+            <p class="accordeon-top-button-left-text">Сумніваюсь, що онлайн курс мені допоможе</p>
+          </div>
+          <img src="resault/plus.svg" alt="" class="accordeon-img">
+        </div>
+        <div class="accordeon-content">
+          <div class="accordeon-content-text">
+            Просте читання книги та перегляд відео на YouTube само по собі не забезпечить бажаного результату. Під час проходження курсу ви будете освоювати теорію та виконувати обов'язкові практичні завдання, що дозволить вам відчути результати навчання негайно. Курс створив автор, яка практично 20 років щодня успішно допомагає людям позбутися проблем зі здоров’ям.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordeon-item">
+        <div class="accordeon-top-button">
+          <div class="accordeon-top-button-left">
+            <p></p>
+            <p class="accordeon-top-button-left-text">Не можу зрушити з місця і змусити себе щось робити</p>
+          </div>
+          <img src="resault/plus.svg" alt="" class="accordeon-img">
+        </div>
+        <div class="accordeon-content">
+          <div class="accordeon-content-text">
+            Рішення змінити щось кардинально і миттєво в більшості приречене на провал. Рух до успіху відбувається поступово крок за кроком, рішення за рішенням. Без стресів і знущань над собою. Ці поступові кроки будуть висвітлені у курсі
+          </div>
+        </div>
+      </div>
+
+      <div class="accordeon-item">
+        <div class="accordeon-top-button">
+          <div class="accordeon-top-button-left">
+            <p></p>
+            <p class="accordeon-top-button-left-text">Не маю на це часу</p>
+          </div>
+          <img src="resault/plus.svg" alt="" class="accordeon-img">
+        </div>
+        <div class="accordeon-content">
+          <div class="accordeon-content-text">
+            Правильне харчування - це запорука вашого здоров’я та життєвої енергії. Не маючи останнього, життя не в радість, робота виснажує, досягненню цілей постійно будуть заважати прокрастинація, поганий настрій і лінь. 
+          </div>
+        </div>
+      </div>
+
+      <div class="accordeon-item">
+        <div class="accordeon-top-button">
+          <div class="accordeon-top-button-left">
+            <p></p>
+            <p class="accordeon-top-button-left-text">Здорове харчування - це дорого та забирає багато часу</p>
+          </div>
+          <img src="resault/plus.svg" alt="" class="accordeon-img">
+        </div>
+        <div class="accordeon-content">
+          <div class="accordeon-content-text">
+            Коли здорове харчування стає стилем життя, насправді, воно не потребує багато часу. На цьому курсі я переконаю вас, що харчуватися правильно може бути дешевше, ніж зазвичай, і набагато швидше. Лікування наслідків неправильного харчування буде суттєво дорожчим і з негативними наслідками.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordeon-item">
+        <div class="accordeon-top-button">
+          <div class="accordeon-top-button-left">
+            <p></p>
+            <p class="accordeon-top-button-left-text">Як почати навчання?</p>
+          </div>
+          <img src="resault/plus.svg" alt="" class="accordeon-img">
+        </div>
+        <div class="accordeon-content">
+          <div class="accordeon-content-text">
+            Після оплати участі Ви отримаєте доступ до особистого онлайн-кабінету, де для Вас миттєво відкриються всі відеоуроки, домашні завдання та додаткові матеріали. Заняття можна дивитися з телефону, планшету, комп'ютеру в зручний для Вас час.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordeon-item">
+        <div class="accordeon-top-button">
+          <div class="accordeon-top-button-left">
+            <p></p>
+            <p class="accordeon-top-button-left-text">Я зможу швидко засинати?</p>
+          </div>
+          <img src="resault/plus.svg" alt="" class="accordeon-img">
+        </div>
+        <div class="accordeon-content">
+          <div class="accordeon-content-text">Жоден професійний лікар не дасть гарантію, що якість сну миттєво покращиться. Організм кожної людини має свої індивідуальні особливості. Одне можу обіцяти - дотримуючись усіх рекомендацій, сон та життєва енергія дійсно ставатимуть кращими. 
+          </div>
+        </div>
+      </div>
+
+      <div class="accordeon-item">
+        <div class="accordeon-top-button">
+          <div class="accordeon-top-button-left">
+            <p></p>
+            <p class="accordeon-top-button-left-text">Ще подумаєте?</p>
+          </div>
+          <img src="resault/plus.svg" alt="" class="accordeon-img">
+        </div>
+        <div class="accordeon-content">
+          <div class="accordeon-content-text">Досить марнувати час і продовжувати жити із залежністю від їжі та своїх емоцій. Правильне харчування - це основа для Вашої фізичної та емоційної гармонії. 
+          </div>
+        </div>
+      </div>
+
+      <div class="accordeon-item">
+        <div class="accordeon-top-button">
+          <div class="accordeon-top-button-left">
+            <p></p>
+            <p class="accordeon-top-button-left-text">Чи зможу я відмовитись від солодкого та мучного?</p>
+          </div>
+          <img src="resault/plus.svg" alt="" class="accordeon-img">
+        </div>
+        <div class="accordeon-content">
+          <div class="accordeon-content-text">Так. Правильні харчові звички допомагають позбутися харчових залежностей. Насправді потяг до солодкого - це показник певних дисбалансів в організмі.
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+  </section>
+
+  <section class="join-to">
+    <div class="join-to-content">
+      <p class="join-to-content-text">Ми всі мріємо бути енергійними, життєрадісними та сповненими сил. Але це не дається зверху.
+        Цю мрію можна крок за кроком перетворити в реальність</p>
+      <p class="join-to-content-undertext">і насолоджуватися життям до глибокої старості </p>
+
+      <div class="join-to-content-white">
+
+        <div class="join-to-content-white-gift">
+          <img src="icons/gift.svg" alt="" class="gift-img">
+          <p class="gift-text">При оплаті сьогодні ти отримаєш бонус</p>
+        </div>
+
+        <div class="content-button" style="margin-top: 28px;margin-bottom: 15px;width: 50%;">
+          <button class="content-button-inner" style="
+          font-size: 20px;
+          max-width: 290px;
+          height: 70px;
+          margin: 0 auto;
+          
+          ">Взяти участь</button>
+          <img src="img/sticker.png" alt="" class="content-button-sticker"
+            style="width: 100px;height: 100px;margin-left: -90px;">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="footer-container">
+      <img src="icons/logo-footer.svg" alt="" class="footer-container-logo">
+      <p class="footer-container-text">Політика конфіденційності. <br> belladonnacentr@gmail.com <br>
+        ФОП Абдулоєва О.Є. <br>
+        3002615241</p>
+      <div class="footer-container-second-text">
+        Якщо у Вас є питання, зверніться у підтримку: <a href="https://t.me/belladonna_online" style="color: #fff;text-decoration: underline;" class="telegram"><i class="fa-brands fa-telegram" style="color: #fff;"></i>belladonna_online</a><br><br><br>
+      </div>
+      <a href="#top">
+        <img src="icons/up.svg" alt="" class="footer-container-button-up">
+      </a>
+    </div>
+  </section>
+  <script src="https://kit.fontawesome.com/8b6e2e5883.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  </script>
+  <script src="main.js"></script>
 </body>
 
 </html>
