@@ -126,7 +126,10 @@ CAVEAT
 /* JOIN TO MOBILE */
 .join-to-mobile {
   display: none;
-  background-position: center;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(mobile/footer-bg.jpg);
 }
 .join-to-content-mobile {
   max-width: 400px;
@@ -1066,6 +1069,10 @@ body {
 }
 
 .testimonials-img {
+  width: 100%;
+}
+.testimonials-img-mobile{
+  display: none; 
   width: 100%;
 }
 

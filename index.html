@@ -519,7 +519,7 @@
     </div>
   </section>
 
-  <section class="myproffesional" style="display: none;">
+  <section class="myproffesional" style="">
     <div class="myproffesional-header">
       <h2 class="myproffesional-title">Мій професійний</h2>
       <p class="myproffesional-subtitle">розвиток</p>
@@ -531,21 +531,21 @@
         style="color: transparent;width: 100px;height: 100px;top: var(--swiper-navigation-top-offset, 44%);"></div>
 
       <div class="swiper-wrapper" style="align-items: center;" style="overflow: hidden;">
-        <div class="swiper-slide"><img src="slider/1.PNG" alt="" style="max-width: 800px;width: 100%;height: 500px;">
+        <div class="swiper-slide"><img src="slider/1.PNG" alt="" style="max-width: 800px;width: 100%;max-height: 500px;">
         </div>
-        <div class="swiper-slide"><img src="slider/2.PNG" alt="" style="max-width: 800px;width: 100%;height: 500px;">
+        <div class="swiper-slide"><img src="slider/2.PNG" alt="" style="max-width: 800px;width: 100%;max-height: 500px;">
         </div>
-        <div class="swiper-slide"><img src="slider/3.JPG" alt="" style="max-width: 800px;width: 100%;height: 500px;">
+        <div class="swiper-slide"><img src="slider/3.JPG" alt="" style="max-width: 800px;width: 100%;max-height: 500px;">
         </div>
-        <div class="swiper-slide"><img src="slider/4.PNG" alt="" style="max-width: 800px;width: 100%;height: 500px;">
+        <div class="swiper-slide"><img src="slider/4.PNG" alt="" style="max-width: 800px;width: 100%;max-height: 500px;">
         </div>
-        <div class="swiper-slide"><img src="slider/5.PNG" alt="" style="max-width: 800px;width: 100%;height: 500px;">
+        <div class="swiper-slide"><img src="slider/5.PNG" alt="" style="max-width: 800px;width: 100%;max-height: 500px;">
         </div>
-        <div class="swiper-slide"><img src="slider/6.PNG" alt="" style="max-width: 800px;width: 100%;height: 500px;">
+        <div class="swiper-slide"><img src="slider/6.PNG" alt="" style="max-width: 800px;width: 100%;max-height: 500px;">
         </div>
-        <div class="swiper-slide"><img src="slider/7.PNG" alt="" style="max-width: 800px;width: 100%;height: 500px;">
+        <div class="swiper-slide"><img src="slider/7.PNG" alt="" style="max-width: 800px;width: 100%;max-height: 500px;">
         </div>
-        <div class="swiper-slide"><img src="slider/8.PNG" alt="" style="max-width: 800px;width: 100%;height: 500px;">
+        <div class="swiper-slide"><img src="slider/8.PNG" alt="" style="max-width: 800px;width: 100%;max-height: 500px;">
         </div>
 
       </div>
@@ -564,7 +564,7 @@
 
   </section>
 
-  <section class="program-course" style="display: none;">
+  <section class="program-course">
     <div class="program-course-header">
       <h2 class="program-course-header-title">Програма</h2>
       <p class="program-course-header-text">курсу</p>
@@ -806,9 +806,13 @@
         </div>
       </div>
 
-      <a href="#tarrif" class="content-button" style="justify-content: center;">
+      <a href="#tarrif" class="content-button hide" style="justify-content: center;">
         <button class="content-button-inner">Взяти участь</button>
         <img src="img/sticker.png" alt="" class="content-button-sticker">
+      </a>
+
+      <a href="#tarrif" class="button-mobile" style="padding: 0 20px;margin-top: 20px;">
+        <img src="icons/button.png" alt="" class="button-mobile-img">
       </a>
 
 
@@ -816,15 +820,16 @@
 
   </section>
 
-  <section class="testimonials"style="display: none;"> 
+  <section class="testimonials"> 
     <h2 class="testimonials-title">Відгуки</h2>
     <p class="testimonials-bluetext">про мою роботу</p>
     <img src="img/testimonials.png" alt="" class="testimonials-img">
+    <img src="mobile/testi.png" alt="" class="testimonials-img-mobile">
   </section>
 
   <section class="video-testi" style="margin-bottom: 100px;text-align: center;">
 
-    <h2 class="testimonials-title" style="margin-top: 150px;">Відгуки</h2>
+    <h2 class="testimonials-title" style="margin-top: 100px;">Відгуки</h2>
     <p class="testimonials-bluetext" style="margin-bottom: 70px;">про мою роботу</p>
 
     <div class="swiper mySwiper" style="align-items: center;overflow: hidden;padding-bottom: 50px;">
@@ -835,15 +840,15 @@
       <div class="swiper-wrapper" style="align-items: center;" style="overflow: hidden;">
 
         <div class="swiper-slide">
-          <video src="videos/3.mp4"  controls class="video-slider"></video>
+          <video src="videos/3.mp4" poster="mobile/poster/33.png"  controls class="video-slider"></video>
         </div>
 
         <div class="swiper-slide">
-          <video src="videos/2.mp4"  controls class="video-slider"></video>
+          <video src="videos/2.mp4" poster="mobile/poster/22.png"  controls class="video-slider"></video>
         </div>
 
         <div class="swiper-slide">
-          <video src="videos/1.mp4"  controls class="video-slider"></video>
+          <video src="videos/1.mp4" poster="mobile/poster/11.png"  controls class="video-slider"></video>
         </div>
 
       </div>
@@ -949,7 +954,7 @@
             «Натуропатична схема корекції стресу»</p>
         </div>
 
-        <div class="content-button" style="margin-top: 28px;margin-bottom: 15px;">
+        <div class="content-button hide" style="margin-top: 28px;margin-bottom: 15px;">
           <button class="content-button-inner" style="
           font-size: 20px;
           max-width: 290px;
@@ -960,6 +965,10 @@
           <img src="img/sticker.png" alt="" class="content-button-sticker"
             style="width: 100px;height: 100px;">
         </div>
+
+        <a href="#tarrif" class="button-mobile">
+          <img src="icons/button.png" alt="" class="button-mobile-img">
+        </a>
 
       </div>
 
@@ -1011,7 +1020,7 @@
             «Натуропатична схема корекції стресу»</p>
         </div>
 
-        <div class="content-button" style="margin-top: 28px;margin-bottom: 15px;">
+        <div class="content-button hide" style="margin-top: 28px;margin-bottom: 15px;">
           <button class="content-button-inner" style="
           font-size: 20px;
           max-width: 290px;
@@ -1022,6 +1031,10 @@
           <img src="img/sticker.png" alt="" class="content-button-sticker"
             style="width: 100px;height: 100px;">
         </div>
+
+        <a href="#tarrif" class="button-mobile">
+          <img src="icons/button.png" alt="" class="button-mobile-img">
+        </a>
 
       </div>
 
@@ -1120,7 +1133,7 @@
     </div>
   </section>
 
-  <section class="question"style="none">
+  <section class="question">
     <div class="title-text">Питання:</div>
     <div class="title-text-blue">Ще сумніваєтесь?</div>
 
@@ -1136,7 +1149,7 @@
           <img src="resault/plus.svg" alt="" class="accordeon-img">
         </div>
         <div class="accordeon-content">
-          <div class="accordeon-content-text">a
+          <div class="accordeon-content-text">
             П'ять років тому онлайн навчання виглядало зовсім інакше, ніж сьогодні. Зараз воно настільки вдосконалене,
             що стає популярнішим за офлайн курси. Сучасні онлайн платформи пропонують зручні особисті кабінети з усіма
             необхідними матеріалами, закриті чати для спілкування з іншими учасниками та різноманітні формати навчальних

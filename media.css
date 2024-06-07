@@ -29,6 +29,14 @@
   }
 }
 @media only screen and (max-width: 1000px) {
+
+  .program-course-undercard-columns {
+    display: flex;
+    gap: 20px;
+    white-space: wrap;
+    flex-wrap: wrap;
+}
+
   .header-social {
     display: none;
   }
@@ -66,14 +74,64 @@
 
   .title-text {
     font-size: 30px;
+    line-height: 35px;
   }
 
   .title-text-blue {
     font-size: 40px;
+    line-height: 40px;
     padding-bottom: 20px;
   }
 }
 @media only screen and (max-width: 600px) {
+
+  .testimonials-img{
+    display: none;
+  }
+  .testimonials-img-mobile{
+    margin-top: 60px;
+    display: block;
+  }
+
+  .reg-now-bonus-img {
+    max-width: 70px;
+  }
+
+  .reg-now-row-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .reg-now-price-current {
+    font-size: 30px;
+    line-height: 25px;
+  }
+
+  .reg-now-price-current {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .reg-now-bonus-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .gift-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .accordeon-top-button-left-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .accordeon-content-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
   div.swiper-button-next {
     display: none;
     width: 0;
@@ -100,23 +158,32 @@
 }
 
 @media only screen and (max-width: 441px) {
-  .accordeon-top-button-left-text {
-    font-size: 20px;
-  }
-
   .reg-now-cards {
     margin-bottom: 0;
   }
 
-  .content-button.hide{
+  .content-button.hide {
     display: none;
+    max-height: 100px;
   }
-  .button-mobile{
+  .button-mobile {
     display: block;
+    max-height: 100px;
+  }
+  .button-mobile-img {
+    height: auto;
   }
 }
 
 @media only screen and (max-width: 420px) {
+  .footer-container-text {
+    font-size: 15px;
+  }
+
+  .footer-container-second-text {
+    font-size: 15px;
+  }
+
   .header-mobile-card {
     height: 88px;
   }
@@ -179,22 +246,30 @@
   .time {
     font-size: 45px;
   }
-  .video-slider{
+  .video-slider {
     height: 550px;
   }
-
 }
 @media only screen and (max-width: 350px) {
   .header-mobile-card {
     height: 74px;
   }
-  img.content-button-sticker{
+  img.content-button-sticker {
     width: 90px;
     height: 90px;
   }
+
+  .header-mobile-card {
+    height: 70px;
+}
+
+
 }
 @media only screen and (max-width: 340px) {
-  .video-slider{
+  .video-slider {
     height: 535px;
+  }
+  .video-slider {
+    height: 500px;
   }
 }
