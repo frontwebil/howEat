@@ -42,12 +42,12 @@ CAVEAT
 
 */
 
-.video-slider{
+.video-slider {
   width: 340px;
   height: 590px;
   border-radius: 30px;
-  border: 12px solid #86C3C4;
-  background-color: #86C3C4;
+  border: 12px solid #86c3c4;
+  background-color: #86c3c4;
 }
 
 .button-mobile {
@@ -64,9 +64,97 @@ CAVEAT
   margin: 0 auto;
 }
 
-
-
 /* MOBILE */
+
+.ifyou-mobile {
+  display: none;
+  position: relative;
+  padding: 67px 15px 0;
+  background-color:rgba(63, 123, 131, 1);
+
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-radius: 60px;
+  margin: 20px;
+}
+.ifyou-mobile-title {
+  font-family: Playfair Display;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.ifyou-mobile-text {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.under-img{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.identify-mobile {
+  display: none;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 50px;
+  text-align: center;
+}
+.identify-content-card-mobile {
+  background: #f7f7f7;
+  padding: 25px;
+  position: relative;
+  border-radius: 23px;
+  margin-top: 30px;
+}
+.identify-content-card-elipse-mobile {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0);
+}
+.identify-content-card-text-mobile {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  max-width: 230px;
+  margin: 0 auto;
+}
+.identify-content-card-text-title-mobile {
+  font-family: Playfair Display;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 41.3px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #676767;
+  text-transform: uppercase;
+}
+
+.bg-week {
+  display: none;
+  position: absolute;
+  z-index: -5;
+  top: 144px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+}
+
 .header-mobile {
   display: none;
   width: 100%;
@@ -156,11 +244,10 @@ CAVEAT
 }
 .join-to-content-white-mobile {
   padding: 30px 20px 20px;
-  background: #FFFFFF61;
+  background: #ffffff61;
   border-radius: 30px;
 
   margin-top: 40px;
-
 }
 .join-to-content-white-gift-mobile {
   display: flex;
@@ -170,18 +257,18 @@ CAVEAT
 }
 .gift-img-mobile {
   font-family: Oswald;
-font-size: 15px;
-font-weight: 600;
-line-height: 25px;
-letter-spacing: 0.03em;
-text-align: left;
-color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
 }
 
 /* Join to END */
 
 /* RESAULT */
-.resault-mobile{
+.resault-mobile {
   padding: 70px 20px;
   display: none;
 }
@@ -497,10 +584,16 @@ body {
 
   padding-bottom: 50px;
 }
+
+.this-course-mobile {
+  display: none;
+}
+
 .this-course-card-text {
   border-radius: 30px;
   padding: 26px 10px;
-  width: 336px;
+  max-width: 336px;
+  width: 100%;
   align-items: center;
   background: radial-gradient(
     65.48% 214.64% at 50% 50%,
@@ -598,10 +691,22 @@ body {
 
 /* Week Card */
 
+.row {
+  display: flex;
+  gap: 60px;
+}
+
+.column-img {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .week {
   background-image: url(img/week.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
   padding-bottom: 130px;
@@ -725,11 +830,9 @@ body {
   width: 100%;
 }
 
-.about-left-img{
+.about-left-img {
   max-height: 900px;
-
 }
-
 
 .about-content {
   display: flex;
@@ -944,7 +1047,7 @@ body {
 }
 .program-course-card.first {
   background-image: url(program-course/first.png);
-  background-position: bottom;
+  background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1078,8 +1181,8 @@ body {
 .testimonials-img {
   width: 100%;
 }
-.testimonials-img-mobile{
-  display: none; 
+.testimonials-img-mobile {
+  display: none;
   width: 100%;
 }
 

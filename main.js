@@ -67,6 +67,7 @@ AccordeonTopButton.forEach((el) => {
 
 document.addEventListener("DOMContentLoaded", () => {
   setTimeout(() => {
+    console.log('test')
     document.body.classList.add('loaded');
   }, 3000);
 });

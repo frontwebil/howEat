@@ -1,4 +1,26 @@
 @media only screen and (max-width: 1400px) {
+
+  .ifyou{
+    display: none;
+  }
+
+  .ifyou-mobile{
+    display: block;
+  }
+
+  .row {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+  }
+
+  .week-card-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+
   .about-left {
     max-width: 500px;
     width: 100%;
@@ -8,8 +30,7 @@
     display: flex;
     max-width: 800px;
     flex-direction: column;
-}
-
+  }
 
   .about-container {
     flex-direction: column;
@@ -81,12 +102,37 @@
   }
 }
 @media only screen and (max-width: 1000px) {
+  div.swiper-button-next {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  div.swiper-button-prev {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .identify{
+    display: none;
+  }
+
+  .identify-mobile{
+    display: block;
+  }
+
+  .week {
+    /* background-image: url(mobile/week-mobile.png); */
+    /* background-repeat: no-repeat; */
+    background-position: top;
+    /* background-size: contain; */
+  }
 
   .video {
     border-radius: 15px;
     width: 100%;
     height: 400px;
-}
+  }
 
   .about-left {
     max-width: 500px;
@@ -115,12 +161,22 @@
   }
 }
 @media only screen and (max-width: 780px) {
+
+  .this-course{
+    display: none;
+  }
+
+  .this-course-mobile{
+    display: block;
+  }
+
   .header {
     display: none;
   }
 
   .header-mobile {
     display: block;
+    padding-bottom: 20px;
   }
 
   .join-to {
@@ -148,14 +204,18 @@
 }
 @media only screen and (max-width: 600px) {
 
+  .under-img{
+    margin-left: -20px;
+    }
+
   .video-section-text {
     font-size: 30px;
     line-height: 40px;
-}
+  }
 
-.video-section-text-blue {
-  font-size: 40px;
-}
+  .video-section-text-blue {
+    font-size: 40px;
+  }
 
   .testimonials-img {
     display: none;
@@ -204,16 +264,7 @@
     line-height: 25px;
   }
 
-  div.swiper-button-next {
-    display: none;
-    width: 0;
-    height: 0;
-  }
-  div.swiper-button-prev {
-    display: none;
-    width: 0;
-    height: 0;
-  }
+
 
   .footer-container-logo {
     max-width: 262px;
@@ -231,13 +282,55 @@
 
 @media only screen and (max-width: 441px) {
 
+  .week {
+    background-image: none;
+  }
 
+  .bg-week{
+    display: block;
+  }
+
+  .week-header{
+    padding-bottom: 150px;
+  }
+
+  .week-card {
+    align-items: flex-start;
+  }
+  .week-cards {
+    gap: 30px;
+  }
+  
+
+  .week-card-main-img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .week-card-second-img {
+    width: 25px;
+    height: 25px;
+    margin-top: -12px;
+  }
+
+  .week-card-text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    max-width: 170px;
+  }
+
+  .week-header-text {
+    font-size: 30px;
+    line-height: 40px;
+    padding-bottom: 0;
+  }
 
   .about-content-inner-line {
     display: flex;
     gap: 20px;
     align-items: flex-start;
-}
+  }
 
   .myproffesional-title {
     font-size: 30px;
@@ -319,6 +412,9 @@
 
   .header-mobile-card {
     height: 88px;
+  }
+  .header-mobile-text {
+    padding-bottom: 330px;
   }
 
   .content-button-sticker {
