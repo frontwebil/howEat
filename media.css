@@ -1,10 +1,9 @@
 @media only screen and (max-width: 1400px) {
-
-  .ifyou{
+  .ifyou {
     display: none;
   }
 
-  .ifyou-mobile{
+  .ifyou-mobile {
     display: block;
   }
 
@@ -113,11 +112,11 @@
     height: 0;
   }
 
-  .identify{
+  .identify {
     display: none;
   }
 
-  .identify-mobile{
+  .identify-mobile {
     display: block;
   }
 
@@ -161,12 +160,11 @@
   }
 }
 @media only screen and (max-width: 780px) {
-
-  .this-course{
+  .this-course {
     display: none;
   }
 
-  .this-course-mobile{
+  .this-course-mobile {
     display: block;
   }
 
@@ -203,10 +201,9 @@
   }
 }
 @media only screen and (max-width: 600px) {
-
-  .under-img{
+  .under-img {
     margin-left: -20px;
-    }
+  }
 
   .video-section-text {
     font-size: 30px;
@@ -264,8 +261,6 @@
     line-height: 25px;
   }
 
-
-
   .footer-container-logo {
     max-width: 262px;
     width: 100%;
@@ -281,26 +276,24 @@
 }
 
 @media only screen and (max-width: 441px) {
-
   .week {
     background-image: none;
   }
 
-  .bg-week{
+  .bg-week {
     display: block;
   }
 
-  .week-header{
+  .week-header {
     padding-bottom: 150px;
   }
 
   .week-card {
-    align-items: flex-start;
+    align-items: center;
   }
   .week-cards {
     gap: 30px;
   }
-  
 
   .week-card-main-img {
     width: 65px;
@@ -316,12 +309,12 @@
   .week-card-text {
     font-size: 15px;
     line-height: 25px;
-    text-align: left;
+    text-align: center;
     max-width: 170px;
   }
 
   .week-header-text {
-    font-size: 30px;
+    font-size: 22px;
     line-height: 40px;
     padding-bottom: 0;
   }
@@ -402,6 +395,10 @@
 }
 
 @media only screen and (max-width: 420px) {
+  .reg-now-price-line {
+    font-family: Manrope;
+    font-size: 23px;
+  }
   .footer-container-text {
     font-size: 15px;
   }
